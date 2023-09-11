@@ -106,6 +106,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  contracts
   middleman
   middleman-autoprefixer
   tzinfo-data

@@ -106,10 +106,10 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  middleman (~> 4.2)
+  middleman (~> 4.5)
   middleman-autoprefixer (~> 3.0)
   tzinfo-data
-  wdm (~> 0.1)
+  wdm (~> 0.1.1)
 
 BUNDLED WITH
    2.3.7

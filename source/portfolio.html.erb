@@ -12,16 +12,14 @@
           end
           .join %>
       <div class="col-12 col-lg-6">
-        <div class="projects p-3">
+        <div class="projects p-4 mb-3">
           <div class="title-and-image position-relative ">
             <%= link_to project.name,
             project.link,
             class:
-              "ms-5 fw-bold fs-3 stretched-link text-dark link-underline link-underline-opacity-0",
+              "project-name ms-5 fs-3 stretched-link",
             target: "_blank" %>
-            <div class="website-image">
               <%= image_tag project.image1, class: "project-image" %>
-            </div>
           </div>
           <div class="info mt-3">
             <p class="text-truncate"><%= project.tagline %></p>

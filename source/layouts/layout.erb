@@ -3,14 +3,57 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    >
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Middleman" %></title>
+    <title>
+      Trevor Gaffney | Web Development, UX/UI Design</title>
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap"
+      rel="stylesheet"
+    >
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+      <div class="brand d-flex align-items-center">
+        <%= image_tag "logo.png", class: "brand" %>
+        <div class="name">
+        <p class="navbar-brand m-0" href="/index">Trevor Gaffney</p>
+        <p class="m-0">Web Developer | UX/UX Designer</p>
+        </div>
+        </div>
+        <div>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <%= link_to "Portfolio", "/portfolio.html", class: "nav-link" %>
+            </li>
+            <li class="nav-item">
+              <%= link_to "About", "/about.html", class: "nav-link" %>
+            </li>
+            <li class="nav-item">
+              <%= link_to "Contact", "/contact.html", class: "nav-link" %>
+            </li>
+  </div>
+      </div>
+    </nav>
     <%= yield %>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

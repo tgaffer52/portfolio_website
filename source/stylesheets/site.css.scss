@@ -1,9 +1,5 @@
 body {
-  background-color: #fbc547;
-  color: #333;
-  font-family: sans-serif;
-  padding: 18vh 1rem;
-  text-align: center;
+  background: linear-gradient(#eef3ff, #a7aec2);
 }
 
 a {
@@ -15,7 +11,54 @@ a {
   }
 }
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
+.about-box {
+  background-color: rgb(196, 253, 213);
+  border-radius: 25px;
+  min-height: 150px;
+  box-shadow: 0 0 30px rgba(168, 0, 160, 0.15);
+}
+
+.avatar {
+  height: 150px;
+  border-radius: 50%;
+  float: left;
+  shape-outside: circle();
+  border: 10px solid #7cd592;
+  margin: -25px 10px 10px -25px;
+}
+
+.projects {
+  background: #fff;
+  box-shadow: 0 0 15px rgba(160, 0, 160, 0.15);
+  border-radius: 25px;
+}
+
+.project-image {
+  width: 100%;
+
+  .card-and-title:hover {
+    transform: scale(1.5);
+  }
+}
+
+.projects-title {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 6em;
+  color: #6a8899;
+}
+
+.info-window {
+  position: sticky;
+}
+
+.carousel-image {
+  width: 100%;
+  display: block;
+  border-radius: 25px;
+}
+
+.brand {
+  float: left;
+  height: 4em;
+  shape-outside: circle();
 }

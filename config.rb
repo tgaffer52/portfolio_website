@@ -44,3 +44,7 @@ page '/*.txt', layout: false
 #   activate :minify_css
 #   activate :minify_javascript
 # end
+
+activate :sprockets
+sprockets.append_path 'bower_components/bootstrap-sass/assets/fonts'
+sprockets.append_path 'bower_components'

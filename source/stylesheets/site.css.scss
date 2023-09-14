@@ -1,5 +1,13 @@
+@import "projects";
+
 body {
-  background: linear-gradient(#eef3ff, #a7aec2);
+  background: linear-gradient(#cdf9af, #9ce8af);
+}
+
+.brand {
+  float: left;
+  height: 4em;
+  shape-outside: circle();
 }
 
 .hover-underline-animation {
@@ -63,24 +71,15 @@ body {
 .projects-title {
   font-family: 'Major Mono Display', monospace;
   font-size: 6em;
-  color: #6a8899;
+  color: #2a7550;
 }
 
 .info-window {
   position: sticky;
 }
 
-.carousel-image {
-  width: 100%;
-  display: block;
-  border-radius: 15px;
-}
 
-.brand {
-  float: left;
-  height: 4em;
-  shape-outside: circle();
-}
+
 
 .title-and-image:hover .project-image {
   transform: scale(1.05);

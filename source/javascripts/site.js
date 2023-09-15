@@ -1,22 +1,14 @@
-// This is where it all goes :)
-console.clear();
+console.log("Javascript connected");
 
-$("button").on("touchstart mousedown", function () {
-	$(this).addClass("clicked");
-});
+const btn = document.querySelectorAll(".btn-green");
 
-$("button").on("touchend mouseup", function () {
-	$(this).removeClass("clicked");
-	$(this).blur();
-});
-
-$("button").on("click touch", function () {
-	$(this).find(".icn").toggleClass("minus");
-	$(this)
-		.find(".txt")
-		.text(
-			$(this).find(".icn").hasClass("minus") == true
-				? "Less details"
-				: "More details"
-		);
+btn.forEach((btn) => {
+  btn.addEventListener("click", (event) => {
+    const text = event.currentTarget;
+    if (text.innerText === "See more") {
+      text.innerText = "See less"
+    } else {
+      text.innerText = "See more"
+    };
+  });
 });

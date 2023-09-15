@@ -5,14 +5,14 @@
       "link": "https://www.tellus-news.world",
       "image1": "Tellus-landing.jpg",
       "tagline": "A news aggregate site. World news: tailored to you",
-      "info": "A news aggregate site for users to view world news from any country and any organization. I pitched the original idea and oversaw the production as Project Manager. The app uses Ruby on Rails, Devise, Javascript, jQuery, Mapbox, APIs, and Chat-GPT."
+      "info": "A news aggregate site for users to view world news from any country and any organization. Click on a country, read top stories, save articles, and follow your favorite countries and topics! You can even search for trending news topics.<br> <br> The app uses Ruby on Rails, Devise, Javascript, jQuery, Mapbox, APIs, and Chat-GPT."
     },
     {
       "name": "To Infinity and Beyond",
       "link": "https://to-infinity-and-beyond-1994-5c8e827d2425.herokuapp.com/",
       "image1": "TIaB-jetpack-index.jpg",
       "tagline": "An Airbnb-style website linking jetpack owners to renters.",
-      "info": "An Airbnb-style website linking jetpack owners to renters, with the ability for users to leave reviews. As UX/UI Lead, I created the figma and oversaw the front-end production of the website. We used Ruby on Rails and Devise."
+      "info": "An Airbnb-style website linking jetpack owners to renters. Find your dream jetpack, pick a date, and voila! Your next adventure awaits. You can leave reviews on jetpacks and add a jetpack yourself for others to rent! Warning: it is not advised to rent or use non-regulated jetpacks. <br> <br> The app uses Ruby on Rails and Devise."
     }
   ]
 }

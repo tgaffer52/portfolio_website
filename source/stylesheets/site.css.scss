@@ -117,6 +117,21 @@ p {
   transition: 1s;
 }
 
+.btn-green {
+  color: black;
+  background: #d1ffc4;
+  border: solid 1px #89a67f;
+  border-radius: 3px;
+  padding: 0.3em 1.5em;
+}
+
+.btn-green:hover {
+  color: white;
+  background: #2a7550;
+  transition: 1s;
+}
+
+
 .footer {
   display: flex;
   flex: wrap;

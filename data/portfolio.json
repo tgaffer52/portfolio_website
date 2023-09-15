@@ -4,7 +4,7 @@
       "name": "Tellus",
       "link": "https://www.tellus-news.world",
       "image1": "Tellus-landing.jpg",
-      "tagline": "A news aggregate site for users to view world news from any country and any organization.",
+      "tagline": "A news aggregate site. World news: tailored to you",
       "info": "A news aggregate site for users to view world news from any country and any organization. I pitched the original idea and oversaw the production as Project Manager. The app uses Ruby on Rails, Devise, Javascript, jQuery, Mapbox, APIs, and Chat-GPT."
     },
     {

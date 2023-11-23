@@ -1,0 +1,155 @@
+$dark: rgb(10, 43, 6);
+
+body {
+  background: linear-gradient(#fff, #b2ff9c);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+.btn,
+.about-header {
+  color: $dark;
+  font-family: "Montserrat", sans-serif;
+}
+
+.brand {
+  float: left;
+  height: 4em;
+  shape-outside: circle();
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #24704b;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.fade-in-fast {
+  animation: fadeIn 1s linear;
+}
+
+.fade-in-slow {
+  animation: fadeIn 3s ease-in;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animated-logo {
+  height: 250px;
+  margin: 1em auto;
+}
+
+.about-underline {
+  height: 2px;
+  width: 46%;
+  margin: auto;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgb(31, 158, 42),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.about-box {
+  background: #ffffffb0;
+  box-shadow: 0 0 15px #4eac2366;
+}
+
+.vert-border {
+  background: gray;
+  height: 300px;
+  align-self: center;
+  border-left: solid 1px #cecece;
+  border-right: solid 1px #cecece;
+}
+
+.projects {
+  background: #fff;
+  box-shadow: 0 0 15px rgba(160, 0, 160, 0.15);
+  border-radius: 15px;
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.project-name {
+  font-weight: bold;
+  text-decoration: none;
+  color: $dark;
+}
+
+.projects-title {
+  font-family: "Major Mono Display", monospace;
+  font-size: 6em;
+  color: #2a7550;
+}
+
+.info-window {
+  position: sticky;
+}
+
+.title-and-image:hover .project-image {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.btn-green {
+  color: $dark;
+  background: #d1ffc4;
+  border: solid 1px #89a67f;
+  border-radius: 3px;
+  padding: 0.3em 1.5em;
+}
+
+.btn-green:hover {
+  color: white;
+  background: #2a7550;
+  transition: 1s;
+}
+
+.footer {
+  display: flex;
+  flex: wrap;
+  justify-content: space-between;
+  background-color: #ffffff59;
+  align-items: center;
+}

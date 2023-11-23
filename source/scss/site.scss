@@ -1,4 +1,4 @@
-@import "projects";
+$dark: #0e270a;
 
 body {
   background: linear-gradient(#fff, #b2ff9c);
@@ -11,7 +11,13 @@ body {
   flex-grow: 1;
 }
 
-p {
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  color: $dark;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -54,8 +60,12 @@ p {
 }
 
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .animated-logo {
@@ -67,7 +77,12 @@ p {
   height: 2px;
   width: 46%;
   margin: auto;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(31, 158, 42), rgba(0, 0, 0, 0));
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgb(31, 158, 42),
+    rgba(0, 0, 0, 0)
+  );
 }
 
 .about-box {
@@ -113,9 +128,7 @@ p {
 .project-name {
   font-weight: bold;
   text-decoration: none;
-  color: black;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: $dark;
 }
 
 .projects-title {
@@ -147,7 +160,6 @@ p {
   background: #2a7550;
   transition: 1s;
 }
-
 
 .footer {
   display: flex;
@@ -190,6 +202,6 @@ p {
   }
 
   .demo-pic {
-    width: 100%
+    width: 100%;
   }
 }

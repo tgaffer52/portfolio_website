@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "name": "Darius Ebrahimi Official Site",
+      "link": "https://www.dariusebrahimi.com",
+      "image1": "darius-top.jpg",
+      "tagline": "The Official Website of author Darius Ebrahimi",
+      "info": "Built with responsiveness and user experience in mind, this website smoothly, stylishly, and effectively showcases the many works of author Darius Ebrahimi. <br> <br> The app uses React.js with Next.js, Tailwind CSS, Javascript, and Typescript."
+    },
+    {
       "name": "Tellus",
       "link": "https://www.tellus-news.world",
       "image1": "Tellus-landing.jpg",

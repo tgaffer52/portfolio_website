@@ -16,9 +16,7 @@ p {
 }
 
 .brand {
-  float: left;
-  height: 4em;
-  shape-outside: circle();
+  height: 3em;
 }
 
 .hover-underline-animation {
@@ -54,8 +52,12 @@ p {
 }
 
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .animated-logo {
@@ -67,7 +69,12 @@ p {
   height: 2px;
   width: 46%;
   margin: auto;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(31, 158, 42), rgba(0, 0, 0, 0));
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgb(31, 158, 42),
+    rgba(0, 0, 0, 0)
+  );
 }
 
 .about-box {
@@ -148,7 +155,6 @@ p {
   transition: 1s;
 }
 
-
 .footer {
   display: flex;
   flex: wrap;
@@ -190,6 +196,6 @@ p {
   }
 
   .demo-pic {
-    width: 100%
+    width: 100%;
   }
 }
